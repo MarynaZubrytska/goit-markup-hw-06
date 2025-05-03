@@ -376,8 +376,8 @@ button {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) ,
     url(../images/people-office-tab.jpg);
     }
-    @media (min-resolution: 192dpi) {
-        .section-title {
+@media (min-resolution: 192dpi) {
+    .section-title {
           background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)) , url(../images/people-office-tab@2x.jpg);
         }
       }
@@ -433,8 +433,7 @@ button {
 }
 @media screen and (min-width:768px) {
     .advantages-list {
-        row-gap: 72px;
-        column-gap: 24px;
+        gap: 72px 24px;
     }
     .advantages-list .advantages-list-item {
         width: calc((100% - 24px)/ 2);
@@ -544,8 +543,7 @@ button {
 }
 @media screen and (min-width:768px) {
     .item-list {
-    column-gap: 24px;
-    row-gap: 64px;
+    gap: 64px 24px;
     }
 }
 @media screen and (min-width:1158px) {
@@ -586,8 +584,7 @@ button {
 }
 @media screen and (min-width:768px) {
     .portfolio-list {
-        row-gap: 72px;
-        column-gap: 24px;
+        gap: 72px 24px;
     }
     .portfolio-list-item {
         width: calc((100% - 72px)/ 2);
@@ -598,8 +595,7 @@ button {
         padding: 120px 0;
     }
     .portfolio-list {
-        row-gap: 48px;
-        column-gap: 24px;
+        gap: 48px 24px;
     }
     .portfolio-list-item {
         width: calc((100% - 48px)/ 3);
@@ -764,9 +760,9 @@ button {
     }
     .ftr-container {
         padding: 0 108px;
-        row-gap: 72px;
-        column-gap: 24px;
+        gap: 72px 24px;
         justify-content:flex-start;
+        align-items: flex-start;
     }
     .ftr-social .text {
         text-align: start;
