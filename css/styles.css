@@ -587,7 +587,7 @@ button {
         gap: 72px 24px;
     }
     .portfolio-list-item {
-        width: calc((100% - 72px)/ 2);
+        width: calc((100% - 24px)/ 2);
 }
 }
 @media screen and (min-width:1158px) {
